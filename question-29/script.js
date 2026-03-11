@@ -18,4 +18,4 @@ person2.address = {}
 person2.address.street = "Gandhi Nagar";
 person2.address.flatNO = 101;
 console.log(person2);
-
+//array is an ordered collection of dataobject is an unordered collection of data
