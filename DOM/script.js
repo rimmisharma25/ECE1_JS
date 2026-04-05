@@ -1,5 +1,6 @@
- myfunction(){
-    console.log("hi");
+ function myfunction() {
+  console.log("hi");
+
  }
 function onclick(){
     console.log("Clicked");
@@ -22,7 +23,7 @@ function onMousemove(){
 }
 function onMouseDblclick(){
     console.log("on mouse dbclick");
-}
+} 
 
 
 
