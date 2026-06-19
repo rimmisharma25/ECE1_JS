@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Marks & Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="./script.js"></script>
+
+<div class="calculator-card">
+    <h2>Grade Calculator</h2>
+    <div class="input-group">
+        <label for="subjectCount">Enter Number of Subjects:</label>
+        <input type="number" id="subjectCount" min="1" max="20" placeholder="e.g., 5">
+    </div>
+    <button onclick="generateMarkFields()">Generate Fields</button>
+    <div id="marksFormContainer" class="hidden">
+        <div id="dynamicFields"></div>
+        <button onclick="calculateResults()" style="margin-top: 15px;">Calculate Grade</button>
+    </div>
+
+    
+    <div id="resultArea" class="hidden"></div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
